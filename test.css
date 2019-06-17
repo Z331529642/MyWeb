@@ -1,0 +1,35 @@
+html{
+    width: 100%;
+    height: 800px;
+
+    /*box-sizing: border-box;*/
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background: green;
+}
+.content{
+    width: 100%;
+    height: 100%;
+
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background: darkorange;
+}
